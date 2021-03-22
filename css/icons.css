@@ -1,0 +1,38 @@
+
+.icon-left-arrow::before{
+    content: '\f177';
+    font-weight: 300;
+}
+.icon-right-arrow::before{
+    content: '\f178';
+    font-weight: 300;
+}
+.icon-mark::before{
+    content: '\f3c5';
+    font-weight: 900;
+}
+.icon-right::before{
+    content: '\f105';
+    font-weight: 300;
+}
+.icon-left::before{
+    content: '\f104';
+    font-weight: 300;
+}
+.icon-down::after{
+    content: '\f0d7';
+    font-weight: 900;
+}
+
+.facebook::before{
+    content: '\f39e';
+}
+.twitter::before{
+    content: '\f099';
+}
+.linkedin::before{
+    content: '\f0e1';
+}
+.behance::before{
+    content: '\f1b4';
+}

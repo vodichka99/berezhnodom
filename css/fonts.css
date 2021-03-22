@@ -1,0 +1,37 @@
+@font-face{
+    font-family: 'geometria';
+    font-weight: 300;
+    src: url('../fonts/geometria/Geometria-Light.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'geometria';
+    font-weight: 400;
+    src: url('../fonts/geometria/Geometria.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'geometria';
+    font-weight: 500;
+    src: url('../fonts/geometria/Geometria-Medium.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'geometria';
+    font-weight: 700;
+    src: url('../fonts/geometria/Geometria-Bold.ttf') format('truetype');
+}
+
+
+@font-face{
+    font-family: 'icon';
+    font-weight: 300;
+    src: url('../fonts/icons/fa-light-300.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'icon';
+    font-weight: 400;
+    src: url('../fonts/icons/fa-regular-400.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'icon';
+    font-weight: 900;
+    src: url('../fonts/icons/fa-solid-900.ttf') format('truetype');
+}
