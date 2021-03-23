@@ -52,13 +52,19 @@ for(const key in elements){
 }
 
 
+const orderCard = document.querySelector('.myorder__card')
+
+orderCard.addEventListener('click', function(event){
+    event.stopPropagation()
+})
+
 
 const buttonOrder = document.querySelector('.header__button')
 const order = document.querySelector('.myorder')
 buttonOrder.addEventListener('click', function(){
     console.log(order);
-    order.style = 'display: flex'
+    order.style = 'opacity: 1; z-index: 10; transition-duration: 0s, 1s;'
     order.addEventListener('click', function(){
-        order.style = 'display: none'
+        order.style = 'opacity: 0; z-index:-1; transition-duration: 2s, 1s;'
     })
 })
