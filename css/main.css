@@ -63,6 +63,10 @@ section{
 }
 
 /* HEAD */
+.head .swiper-scrollbar-drag {
+  background: white;
+  cursor: pointer;
+}
 .head {
   height: 685px;
 }
@@ -72,7 +76,7 @@ section{
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -5;
 }
 .head__background {
   height: 685px;
@@ -108,11 +112,11 @@ section{
   height: 2px;
   margin: 0 8px;
 }
-.line-inner {
+/* .line-inner {
   background: white;
   height: 100%;
   width: 25%;
-}
+} */
 .head__line {
   width: 100px;
   height: 2px;
@@ -418,7 +422,7 @@ section{
   bottom: 0;
   left: 0;
 }
-.swiper-scrollbar-drag {
+.fourth .swiper-scrollbar-drag {
   background: var(--gray);
   cursor: pointer;
 }
@@ -551,7 +555,7 @@ section{
 /* SIXTH */
 .sixth {
   background: var(--light-background);
-  z-index: -2;
+  z-index: -4;
 }
 .sixth .swiper-wrapper{
   height: 700px;
@@ -568,16 +572,21 @@ section{
   width: 100%;
   height: 100%;
   padding: 0;
+  position: relative;
+  z-index: -4;
 }
 .sixth .swiper-slide .sixth__img{
   left: 0;
   width: 50%;
   height: 700px;
   background-size: cover;
+  z-index: -4;
 }
 .sixth__container {
   padding-top: 80px;
   padding-bottom: 100px;
+  position: relative;
+  z-index: 1;
 }
 .sixth__buttons--left {
   width: 54px;
@@ -672,7 +681,18 @@ section{
   background: url("../images/third.png") no-repeat center;
   background-size: cover;
 }
-
+.sixth__bg1{
+  width: 50%;
+  height: 100%;
+  left: 0;
+  background: var(--light-background);
+}
+.sixth__bg2{
+  width: 50%;
+  height: 100%;
+  right: 0;
+  background: var(--light-background);
+}
 /* FOOTER */
 .footer {
   height: 700px;

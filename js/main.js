@@ -9,6 +9,10 @@ new Swiper('.head', {
     navigation: {
         nextEl: '.head__buttons--right',
         prevEl: '.head__buttons--left',
+    },
+    scrollbar: {
+        el: '.head__item--line',
+        draggable: true,
     }
 })
 new Swiper('.third', {
