@@ -15,19 +15,24 @@ new Swiper('.head', {
         draggable: true,
     }
 })
-new Swiper('.third', {
+new Swiper('.third .swiper-container', {
     navigation: {
         nextEl: '.third__buttons--right',
         prevEl: '.third__buttons--left',
     },
-    simulateTouch: false,
 })
-new Swiper('.sixth', {
+new Swiper('.sixth .swiper-container', {
     navigation: {
         nextEl: '.sixth__buttons--right',
         prevEl: '.sixth__buttons--left',
     },
-    simulateTouch: false,
+})
+new Swiper('.sixth .swiper-container1', {
+    navigation: {
+        nextEl: '.sixth__buttons--right1',
+        prevEl: '.sixth__buttons--left1',
+    },
+    
 })
 
 
@@ -65,6 +70,6 @@ buttonOrder.addEventListener('click', function(){
     console.log(order);
     order.style = 'opacity: 1; z-index: 10; transition-duration: 0s, 1s;'
     order.addEventListener('click', function(){
-        order.style = 'opacity: 0; z-index:-1; transition-duration: 2s, 1s;'
+        order.style = 'opacity: 0; z-index:-10;'
     })
 })

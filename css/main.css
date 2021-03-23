@@ -247,6 +247,13 @@ section{
 }
 
 /* THIRD */
+.third .swiper-container{
+  /* position: relative; */
+  /* z-index: -3; */
+  position: absolute;
+  width: 40%;
+  height: 100%;
+}
 .third {
   min-height: 700px;
   background: var(--light-background);
@@ -254,7 +261,7 @@ section{
 }
 .third .swiper-wrapper{
   position: absolute;
-  width: 40%;
+  width: 100%;
   height: 100%;
   background-size: cover;
   left: 0;
@@ -263,7 +270,7 @@ section{
 .third__img{
   background: url("../images/Rectangle 23.png") no-repeat center;
   background-size: cover;
-  width: 40%;
+  width: 100%;
   height: 700px;
   position: absolute;
   left: 0;
@@ -373,6 +380,7 @@ section{
   position: absolute;
   left: 0;
   bottom: 110px;
+  z-index: 5;
 }
 .third__bg{
   width: 60%;
@@ -564,17 +572,34 @@ section{
 }
 
 /* SIXTH */
+.sixth .swiper-container{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+.sixth__right{
+  position: relative;
+  z-index: 5;
+}
+.sixth .swiper-container1{
+  left: 0;
+  right: 50%;
+}
+.sixth .swiper-slide{
+  width: 100%;
+}
 .sixth {
   background: var(--light-background);
   z-index: -4;
 }
 .sixth .swiper-wrapper{
-  height: 700px;
-  width: 50%;
   position: absolute;
-  left: 50%;
-  z-index: -1;
-  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  right: 0;
+  /* z-index: -1; */
 }
 .sixth .swiper-wrapper1{
   left: 0;
@@ -584,11 +609,11 @@ section{
   height: 100%;
   padding: 0;
   position: relative;
-  z-index: -4;
+  /* z-index: -4; */
 }
 .sixth .swiper-slide .sixth__img{
   left: 0;
-  width: 50%;
+  width: 100%;
   height: 700px;
   background-size: cover;
   z-index: -4;
@@ -597,7 +622,7 @@ section{
   padding-top: 80px;
   padding-bottom: 100px;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .sixth__buttons--left {
   width: 54px;
@@ -611,6 +636,29 @@ section{
   border: none !important;
 }
 .sixth__buttons--right {
+  width: 54px;
+  height: 54px;
+  background: var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none !important;
+  border: none !important;
+}
+.sixth__buttons--left1 {
+  width: 54px;
+  height: 54px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none !important;
+  border: none !important;
+}
+.sixth__buttons--right1 {
   width: 54px;
   height: 54px;
   background: var(--gray);
@@ -671,7 +719,7 @@ section{
   margin-bottom: 54px;
 }
 .sixth__img {
-  width: 50%;
+  width: 100%;
   height: 100%;
   background: url("../images/Rectangle 14.png") no-repeat center;
   background-size: cover;
@@ -691,6 +739,7 @@ section{
 .sixth__img4 {
   background: url("../images/fourth.png") no-repeat center;
   background-size: cover;
+  width: 50%;
 }
 .sixth__img3 {
   background: url("../images/third.png") no-repeat center;
