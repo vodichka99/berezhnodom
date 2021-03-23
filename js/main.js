@@ -21,7 +21,7 @@ new Swiper('.third .swiper-container', {
         prevEl: '.third__buttons--left',
     },
 })
-new Swiper('.sixth .swiper-container', {
+new Swiper('.sixth .swiper-container0', {
     navigation: {
         nextEl: '.sixth__buttons--right',
         prevEl: '.sixth__buttons--left',
@@ -32,7 +32,12 @@ new Swiper('.sixth .swiper-container1', {
         nextEl: '.sixth__buttons--right1',
         prevEl: '.sixth__buttons--left1',
     },
-    
+})
+new Swiper('.sixth .swiper-container2', {
+    navigation: {
+        nextEl: '.sixth__buttons--right2',
+        prevEl: '.sixth__buttons--left2',
+    },
 })
 
 

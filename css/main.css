@@ -647,7 +647,9 @@ section{
   outline: none !important;
   border: none !important;
 }
-.sixth__buttons--left1 {
+.sixth__buttons--left1,
+.sixth__buttons--left2
+ {
   width: 54px;
   height: 54px;
   background: white;
@@ -658,7 +660,9 @@ section{
   outline: none !important;
   border: none !important;
 }
-.sixth__buttons--right1 {
+.sixth__buttons--right1,
+.sixth__buttons--right2
+{
   width: 54px;
   height: 54px;
   background: var(--gray);
