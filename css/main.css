@@ -350,12 +350,16 @@ section{
   width: 54px;
   height: 54px;
   background: white;
+  outline: none !important;
+  border: none !important;
 }
 .third__buttons--right {
   width: 54px;
   height: 54px;
   background: var(--gray);
   margin-left: 20px;
+  outline: none !important;
+  border: none !important;
 }
 .third__buttons {
   left: 0;
@@ -369,6 +373,12 @@ section{
   position: absolute;
   left: 0;
   bottom: 110px;
+}
+.third__bg{
+  width: 60%;
+  height: 100%;
+  background: var(--light-background);
+  right: 0;
 }
 
 /* FOURTH */
@@ -596,6 +606,8 @@ section{
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  outline: none !important;
+  border: none !important;
 }
 .sixth__buttons--right {
   width: 54px;
@@ -606,6 +618,8 @@ section{
   justify-content: center;
   margin-left: 20px;
   cursor: pointer;
+  outline: none !important;
+  border: none !important;
 }
 .sixth__left {
   width: 480px;
@@ -768,20 +782,20 @@ section{
 }
 
 /* ORDER */
-.order {
+.myorder{
   width: 100%;
   height: 100%;
   position: fixed;
   background: rgba(0, 0, 0, 0.6);
   z-index: 10;
-  display: none !important;
+  display: none;
 }
-.order__card {
+.myorder__card {
   width: 370px;
   height: 520px;
   background: white;
 }
-.order__card--input {
+.myorder__card--input {
   width: 290px;
   height: 54px;
   border: 1px solid var(--gray);
@@ -792,7 +806,7 @@ section{
   margin-bottom: 20px;
   padding-left: 20px;
 }
-.order__card--textarea {
+.myorder__card--textarea {
   width: 290px;
   height: 120px;
   font-size: 11px;
@@ -802,13 +816,13 @@ section{
   padding-left: 20px;
   padding-top: 20px;
 }
-.order__card--title {
+.myorder__card--title {
   font-size: 30px;
   font-weight: 700;
   color: var(--gray);
   margin-bottom: 30px;
 }
-.order__card--button {
+.myorder__card--button {
   width: 290px;
   height: 54px;
   background: var(--gray);
@@ -818,13 +832,13 @@ section{
   font-weight: 500;
   cursor: pointer;
 }
-.order__card--button span {
+.myorder__card--button span {
   color: white;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 500;
 }
-.order__card--text {
+.myorder__card--text {
   color: black;
   font-size: 11px;
   font-weight: 400;

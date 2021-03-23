@@ -19,13 +19,15 @@ new Swiper('.third', {
     navigation: {
         nextEl: '.third__buttons--right',
         prevEl: '.third__buttons--left',
-    }
+    },
+    simulateTouch: false,
 })
 new Swiper('.sixth', {
     navigation: {
         nextEl: '.sixth__buttons--right',
         prevEl: '.sixth__buttons--left',
-    }
+    },
+    simulateTouch: false,
 })
 
 
@@ -48,3 +50,15 @@ for(const key in elements){
         elements[key].classList.add('active')
     })
 }
+
+
+
+const buttonOrder = document.querySelector('.header__button')
+const order = document.querySelector('.myorder')
+buttonOrder.addEventListener('click', function(){
+    console.log(order);
+    order.style = 'display: flex'
+    order.addEventListener('click', function(){
+        order.style = 'display: none'
+    })
+})
