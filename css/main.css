@@ -168,7 +168,7 @@ section{
 }
 .head__buttons {
   position: absolute;
-  right: 0;
+  right: 10px;
   bottom: 0;
 }
 
@@ -907,4 +907,46 @@ section{
 }
 .footer__button{
   cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1199px) {
+
+  .header__item{
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
 }
