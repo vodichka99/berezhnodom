@@ -14,16 +14,32 @@
 
     <header class="header d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
-            <img src="images/logo 1.svg" alt="berezhnodom">
+            <div class="dropdown d-block d-sm-none">
+                <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="btn-inner"></div>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                  <h5 class="text-white h4">Collapsed content</h5>
+                  <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+            </div>
+            <img class="header__logo" src="images/logo 1.svg" alt="berezhnodom">
             <div class="header__info d-flex">
-                <div class="header__item d-flex align-items-center justify-content-between">
+                <div class="header__item d-md-flex align-items-center justify-content-between d-none">
                     <img src="images/icon-mark.svg" alt="#" class="header__item--mark">
                     <div class="header__item--text d-lg-block d-sm-none d-none">
                         <span>МО, Новая Рига</span>
                         <p>Поселки Villagio Estate</p>
                     </div>
                 </div>
-                <div class="header__item d-flex align-items-center justify-content-between">
+                <div class="header__item d-md-flex align-items-center justify-content-between d-none">
                     <img src="images/icon-phone.svg" alt="#" class="header__item--icon">
                     <div class="header__item--text d-lg-block d-sm-none d-none">
                         <span>8 (916) 800-40-40</span>
@@ -31,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <button class="header__button d-flex justify-content-center align-items-center d-md-flex d-none"><span>оставить заявку</span></button>
+            <button class="header__button d-flex justify-content-center align-items-center"><span>оставить заявку</span></button>
         </div>
     </header>
 
@@ -159,8 +175,6 @@
             </div>
         </div>
     </section>
-
-
 
 
 
