@@ -160,6 +160,28 @@
     height: 750px;
 }
 .s-third__title2{
+    font-size: 36px !important;
+    font-weight: 700 !important;
+}
+.s-third .swiper-container{
+    position: absolute;
+    top: 200px;
+}
+.s-third .fourth__img1{
+    background: url('../images/apartment.jpg') no-repeat center;
+    background-size: cover;
+}
+.s-third .fourth__img2{
+    background: url('../images/apartment2.jpg') no-repeat center;
+    background-size: cover;
+}
+.s-third .fourth__img3{
+    background: url('../images/apartment3.png') no-repeat center;
+    background-size: cover;
+}
+.s-third .fourth__img4{
+    background: url('../images/apartment.jpg') no-repeat center;
+    background-size: cover;
 }
 
 

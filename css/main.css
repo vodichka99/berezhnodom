@@ -411,7 +411,7 @@ a{
 /* FOURTH */
 .fourth {
   overflow: hidden;
-  height: 904px;
+  min-height: 904px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -1224,7 +1224,7 @@ a{
   /* FOURTH */
   .fourth{
     padding: 30px 15px;
-    height: 490px;
+    min-height: 490px;
   }
   .fourth h3{
     font-size: 30px;
@@ -1237,6 +1237,7 @@ a{
     height: 250px;
     width: 250px !important;
     object-fit: cover;
+    /* overflow: hidden; */
   }
   .fourth .swiper-wrapper{
     width: 250px !important;
@@ -1247,6 +1248,7 @@ a{
     width: 250px;
     margin-top: 10px;
     top: 100px;
+    overflow: hidden;
   }
   .fourth .swiper-scrollbar{
     width: 93vw;
