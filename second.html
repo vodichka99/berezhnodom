@@ -14,34 +14,18 @@
 
     <header class="header d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
-            <div class="dropdown d-block d-sm-none">
-                <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    <div class="btn-inner"></div>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                  <h5 class="text-white h4">Collapsed content</h5>
-                  <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
             <img class="header__logo" src="images/logo 1.svg" alt="berezhnodom">
             <div class="header__info d-flex">
                 <div class="header__item d-md-flex align-items-center justify-content-between d-none">
                     <img src="images/icon-mark.svg" alt="#" class="header__item--mark">
-                    <div class="header__item--text d-lg-block d-sm-none d-none">
+                    <div class="header__item--text">
                         <span>МО, Новая Рига</span>
                         <p>Поселки Villagio Estate</p>
                     </div>
                 </div>
                 <div class="header__item d-md-flex align-items-center justify-content-between d-none">
                     <img src="images/icon-phone.svg" alt="#" class="header__item--icon">
-                    <div class="header__item--text d-lg-block d-sm-none d-none">
+                    <div class="header__item--text">
                         <span>8 (916) 800-40-40</span>
                         <p>c 8-00 до 21-00</p>
                     </div>
@@ -181,21 +165,22 @@
 
 
 
-    <footer class="footer container-fluid position-relative">
+    <footer class="footer position-relative">
         <div class="container">
             <div class="footer__block d-flex flex-column">
-                <h3 class="footer__title">Контакты</h3>
-                <div class="footer__line"></div>
-                <span class="footer__address"><img src="images/icon-mark.svg" alt="$"> МО, Новая Рига, Поселки Villagio Estate</span>
-                <span class="footer__phone"><img src="images/icon-phone.svg" alt="$"> 8 (916) 800-40-40</span>
-                <span class="footer__email"><img src="images/icontg.svg" alt="$"> info@berezhnodom.ru</span>
+                <h3 class="footer__title d-sm-block d-none">Контакты</h3>
+                <img class="footer__logo d-sm-none d-block" src="images/logo 1.svg" alt="berezhnodom">
+                <div class="footer__line d-sm-block d-none"></div>
+                <span class="footer__address d-flex"><img class="d-sm-block d-none" src="images/icon-mark.svg" alt="$"><span>МО, Новая Рига, Поселки Villagio Estate</span></span>
+                <span class="footer__phone d-flex"><img class="d-sm-block d-none" src="images/icon-phone.svg" alt="$"><span>8 (916) 800-40-40</span></span>
+                <span class="footer__email d-flex"><img class="d-sm-block d-none" src="images/icontg.svg" alt="$"><a href=«mailto: info@berezhnbo.pro»>info@berezhno.pro</a></span>
                 <button class="footer__button d-flex align-items-center justify-content-center"><span>ЗАКАЗАТЬ ЗВОНОК</span><img src="images/white right.svg" alt=">"></button>
                 <span class="footer__title-bot">Услугу предоставляет</span>
                 <span class="footer__text-bot">ИП Бережной Виталий Олегович <br>
                     ИНН 773378890630</span>
             </div>
         </div>
-        <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8594.769069420536!2d35.440131566548246!3d55.96586292886107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ca0dd797170787%3A0xd5aa54ff547941c8!2zRHVibGRvbSBOZXcgUmlnYSBMYWtlIEhvdXNlLyDQlNGD0LHQu9GM0JTQvtC8INC_0L4g0J3QvtCy0L7QuSDQoNC40LPQtSDRgSDQstC40LTQvtC8INC90LAg0L7Qt9C10YDQvg!5e0!3m2!1sru!2s!4v1616418366968!5m2!1sru!2s"></iframe>
+        <iframe class="footer__map d-none d-sm-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8594.769069420536!2d35.440131566548246!3d55.96586292886107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ca0dd797170787%3A0xd5aa54ff547941c8!2zRHVibGRvbSBOZXcgUmlnYSBMYWtlIEhvdXNlLyDQlNGD0LHQu9GM0JTQvtC8INC_0L4g0J3QvtCy0L7QuSDQoNC40LPQtSDRgSDQstC40LTQvtC8INC90LAg0L7Qt9C10YDQvg!5e0!3m2!1sru!2s!4v1616418366968!5m2!1sru!2s"></iframe>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>

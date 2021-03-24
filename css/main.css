@@ -1451,6 +1451,7 @@ a{
   }
   .footer__address{
     margin: 0 auto;
+    text-align: center;
   }
   .footer__email{
     margin: 20px auto;
