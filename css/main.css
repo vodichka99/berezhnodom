@@ -31,6 +31,9 @@ button{
   border: none;
 
 }
+a{
+  color: var(--gray);
+}
 
 
 
@@ -805,6 +808,7 @@ button{
 .footer {
   max-height: 700px;
   background: var(--light-background);
+  padding-bottom: 30px;
 }
 .footer__map {
   width: 57%;
@@ -873,6 +877,11 @@ button{
 }
 .footer .container {
   padding-top: 80px;
+}
+.footer__address span,
+.footer__email a,
+.footer__phone span{
+  margin-left: 10px;
 }
 
 /* ORDER */
@@ -947,7 +956,6 @@ button{
 .footer__button{
   cursor: pointer;
 }
-
 
 
 
