@@ -418,6 +418,7 @@ a{
 .fourth h3 {
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 .swiper-slide {
   width: 370px;
