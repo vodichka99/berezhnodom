@@ -22,24 +22,40 @@ new Swiper('.third .swiper-container', {
         nextEl: '.third__buttons--right',
         prevEl: '.third__buttons--left',
     },
+    scrollbar: {
+        el: '.third__item--line',
+        draggable: true,
+    }
 })
 new Swiper('.sixth .swiper-container0', {
     navigation: {
         nextEl: '.sixth__buttons--right',
         prevEl: '.sixth__buttons--left',
     },
+    scrollbar: {
+        el: '.sixth__item--line0',
+        draggable: true,
+    }
 })
 new Swiper('.sixth .swiper-container1', {
     navigation: {
         nextEl: '.sixth__buttons--right1',
         prevEl: '.sixth__buttons--left1',
     },
+    scrollbar: {
+        el: '.sixth__item--line1',
+        draggable: true,
+    }
 })
 new Swiper('.sixth .swiper-container2', {
     navigation: {
         nextEl: '.sixth__buttons--right2',
         prevEl: '.sixth__buttons--left2',
     },
+    scrollbar: {
+        el: '.sixth__item--line2',
+        draggable: true,
+    }
 })
 
 
