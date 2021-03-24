@@ -1246,7 +1246,7 @@ a{
   }
   .fourth .swiper-container{
     height: 300px;
-    width: 250px;
+    width: 100%;
     margin-top: 10px;
     top: 100px;
     overflow: hidden;
