@@ -15,7 +15,7 @@
 
 /* FIRST */
 .s-first{
-    height: 470px;
+    min-height: 470px;
     padding: 56px 0;
 }
 .s-first__text{
@@ -72,6 +72,7 @@
 }
 .s-second .swiper-container{
     width: 55%;
+    right: 45%;
 }
 .s-second__block{
     position: relative;
@@ -108,6 +109,7 @@
     height: 54px;
     background: var(--gray);
     margin-top: 144px;
+    cursor: pointer;
 }
 .s-second__block--line{
     width: 100px;

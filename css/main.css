@@ -339,7 +339,7 @@ section{
   position: relative;
   transform: translate(0, 2px);
   cursor: pointer;
-  transition: 0.2s;
+  /* transition: 0.2s; */
 }
 /* .nav-link.active{
   background-color: var(--light-background) !important;
@@ -907,6 +907,10 @@ section{
 }
 .footer__button{
   cursor: pointer;
+}
+
+.swiper-container{
+  max-width: 1200px;
 }
 
 
