@@ -30,7 +30,7 @@ for(const key in items){
                 itInner.style = 'max-height: 0; margin-top: 0'
             }
             itemMark.style = 'transform: rotate(0)'
-            itemInner.style = 'max-height: 48px; margin-top: 25px'
+            itemInner.style = 'max-height: 150px; margin-top: 25px'
             x = 1
             y = key
         }else if(x == 1 || y == key){
