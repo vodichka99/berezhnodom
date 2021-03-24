@@ -1004,7 +1004,7 @@ a{
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   /* HEADER */
   .header{
     min-height: 70px;
@@ -1101,7 +1101,7 @@ a{
   }
   .head__item{
     margin-top: 230px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
 
@@ -1160,6 +1160,7 @@ a{
   }
   .third__menu{
     margin-top: 20px;
+    width: 100%;
   }
   .third__menu--element{
     font-size: 10px !important;
@@ -1468,14 +1469,22 @@ a{
   }
   .footer__title-bot{
     border-top: 1px solid var(--opacity-gray);
-    padding-top: 15px;
+    padding-top: 30px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
   }
   .footer__email a{
     color: var(--gray);
   }
-  /* .footer{
-    height: 600px;
-  } */
+  .footer__text-bot{
+    margin: 20px auto;
+    text-align: center;
+  }
+  .footer .container{
+    padding-bottom: 0;
+  }
+    
 }
 
 /* Iphone 5 */

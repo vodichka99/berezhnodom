@@ -324,6 +324,9 @@
     .s-third .swiper-container{
         width: 92vw;
     }
+    .s-third .swiper-wrapper{
+        /* width: 100% !important; */
+    }
 
     /* FOURTH */
     .s-fourth{
