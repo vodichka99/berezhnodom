@@ -1004,7 +1004,7 @@ a{
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 767px) {
+@media (max-width: 767.9px) {
   /* HEADER */
   .header{
     min-height: 70px;
