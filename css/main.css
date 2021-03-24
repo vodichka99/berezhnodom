@@ -27,7 +27,7 @@ section{
 }
 button{
   border: none;
-  
+
 }
 
 
@@ -74,6 +74,9 @@ button{
 }
 
 /* HEAD */
+/* .head .swiper-container{
+  width: 50%;
+} */
 .head .swiper-scrollbar-drag {
   background: white;
   cursor: pointer;
@@ -919,7 +922,11 @@ button{
   cursor: pointer;
 }
 
-.swiper-container{
+
+
+
+
+.s-second .swiper-container{
   max-width: 1200px;
 }
 
