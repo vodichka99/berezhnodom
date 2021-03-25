@@ -42,3 +42,7 @@ for(const key in items){
         }
     })
 }
+
+$('[data-fancybox="gallery"]').fancybox({
+	// Options will go here
+});

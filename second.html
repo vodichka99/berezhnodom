@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.css">
@@ -40,11 +41,11 @@
     <section class="s-first">
         <div class="container">
             <nav class="s-first__menu d-flex align-items-center flex-md-row flex-column">
-                <span>Главная</span>
+                <a>Главная</a>
                 <div class="menu__line"></div>
-                <span>Ремонт под ключ</span>
+                <a>Ремонт под ключ</a>
                 <div class="menu__line"></div>
-                <span>Ремонт аппартаментов «Парк Авеню 101»</span>
+                <a>Ремонт аппартаментов «Парк Авеню 101»</a>
             </nav>
             <div class="s-first__title d-flex flex-md-row flex-column"><div class="title__line"></div><h3>Ремонт аппартаментов <br>
                 «Парк Авеню 101»</h3></div>
@@ -111,16 +112,16 @@
             <div class="image-slider swiper-container">
                 <div class="image-slider__wrapper swiper-wrapper">
                     <div class="image-slider__image swiper-slide position-relative">
-                        <div class="fourth__img fourth__img1"></div>
+                        <a data-fancybox="gallery" href="images/apartment.svg" class=""><img src="images/apartment.jpg" alt=""></a>
                     </div>
                     <div class="image-slider__image swiper-slide position-relative">
-                        <div class="fourth__img fourth__img2"></div>
+                        <a data-fancybox="gallery" href="images/apartment2.svg" class="fourth__img fourth__img2"></a>
                     </div>
                     <div class="image-slider__image swiper-slide position-relative">
-                        <div class="fourth__img fourth__img3"></div>
+                        <a data-fancybox="gallery" href="images/apartment3.svg" class="fourth__img fourth__img3"></a>
                     </div>
                     <div class="image-slider__image swiper-slide position-relative">
-                        <div class="fourth__img fourth__img4"></div>
+                        <a data-fancybox="gallery" href="images/apartment.svg" class="fourth__img fourth__img4"></a>
                     </div>
                 </div>
                 <div class="swiper-scrollbar"></div>
@@ -131,31 +132,31 @@
         <div class="container">
             <h3>Часто задаваемые вопросы</h3>
             <div class="s-fourth__accordion">
-                <div class="accordion-item d-flex justify-content-between flex-wrap" id="item0">
+                <div class="accordion-item d-flex justify-content-between flex-wrap align-items-center" id="item0">
                     <span class="item-title">Что входит в ремонт под ключ?</span>
                     <div class="plus position-relative"><div class="plus-line" id="mark0"></div></div>
                     <span class="item-inner" id="inner0">Гарантия на все виды выполняемых работ без нарушений норм и технологических процессов, предусмотренных для ремонтных и отделочных работ в квартирах 
 Москвы. Если у Вас возникли вопросы, по какому бы то ни было виду или перечня выполняемых работ просьба связаться с нашими специалистами.</span>
                 </div>
-                <div class="accordion-item d-flex justify-content-between flex-wrap" id="item1">
+                <div class="accordion-item d-flex justify-content-between flex-wrap align-items-center" id="item1">
                     <span class="item-title">Как происходит оптала?</span>
                     <div class="plus position-relative"><div class="plus-line" id="mark1"></div></div>
                     <span class="item-inner" id="inner1">Гарантия на все виды выполняемых работ без нарушений норм и технологических процессов, предусмотренных для ремонтных и отделочных работ в квартирах 
 Москвы. Если у Вас возникли вопросы, по какому бы то ни было виду или перечня выполняемых работ просьба связаться с нашими специалистами.</span>
                 </div>
-                <div class="accordion-item d-flex justify-content-between flex-wrap" id="item2">
+                <div class="accordion-item d-flex justify-content-between flex-wrap align-items-center" id="item2">
                     <span class="item-title">Какие гарантии я получаю?</span>
                     <div class="plus position-relative"><div class="plus-line" id="mark2"></div></div>
                     <span class="item-inner" id="inner2">Гарантия на все виды выполняемых работ без нарушений норм и технологических процессов, предусмотренных для ремонтных и отделочных работ в квартирах 
 Москвы. Если у Вас возникли вопросы, по какому бы то ни было виду или перечня выполняемых работ просьба связаться с нашими специалистами.</span>
                 </div>
-                <div class="accordion-item d-flex justify-content-between flex-wrap" id="item3">
+                <div class="accordion-item d-flex justify-content-between flex-wrap align-items-center" id="item3">
                     <span class="item-title">Какие документы я получаю?</span>
                     <div class="plus position-relative"><div class="plus-line" id="mark3"></div></div>
                     <span class="item-inner" id="inner3">Гарантия на все виды выполняемых работ без нарушений норм и технологических процессов, предусмотренных для ремонтных и отделочных работ в квартирах 
 Москвы. Если у Вас возникли вопросы, по какому бы то ни было виду или перечня выполняемых работ просьба связаться с нашими специалистами.</span>
                 </div>
-                <div class="accordion-item d-flex justify-content-between flex-wrap" id="item4">
+                <div class="accordion-item d-flex justify-content-between flex-wrap align-items-center" id="item4">
                     <span class="item-title">Технические требования</span>
                     <div class="plus position-relative"><div class="plus-line" id="mark4"></div></div>
                     <span class="item-inner" id="inner4">Гарантия на все виды выполняемых работ без нарушений норм и технологических процессов, предусмотренных для ремонтных и отделочных работ в квартирах 
@@ -188,6 +189,8 @@
         <iframe class="footer__map d-none d-md-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8594.769069420536!2d35.440131566548246!3d55.96586292886107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ca0dd797170787%3A0xd5aa54ff547941c8!2zRHVibGRvbSBOZXcgUmlnYSBMYWtlIEhvdXNlLyDQlNGD0LHQu9GM0JTQvtC8INC_0L4g0J3QvtCy0L7QuSDQoNC40LPQtSDRgSDQstC40LTQvtC8INC90LAg0L7Qt9C10YDQvg!5e0!3m2!1sru!2s!4v1616418366968!5m2!1sru!2s"></iframe>
     </footer>
 
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>

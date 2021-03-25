@@ -29,10 +29,11 @@
     max-width: 507px;
     justify-content: space-between;
 }
-.s-first__menu span{
+.s-first__menu a{
     color: #808080;
     font-size: 12px;
     font-weight: 300;
+    cursor: pointer;
 }
 .menu__line{
     width: 16px;
